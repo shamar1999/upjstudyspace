@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Study Space</a>
+    </div>
+	  <ul class="nav navbar-nav">
+      <li class="active"><a href=file:///Users/shamarhunter/Documents/studyspaceapp.html#>Home</a></li>
+		  </ul>
+  </div>
+</nav>
+<div class="container">
+ <h3 class="page-header" id="Title" style="color: goldenrod" > University of Pittsbugh at Johnstown Study Space
+</h3>
+	<button type="button" class="btn btn-default">
+            <a 
+                href=/>
+                Show All
+            </a>    
+        </button>
+
+          
+        <button type="button" class="btn btn-default">
+            <a 
+                href=/top5>
+                Least Crowded Rooms
+            </a>    
+        </button>
+
+                  
+        <button type="button" class="btn btn-default">
+            <a 
+                href=/worst5>
+                Most Crowded Rooms
+            </a>    
+        </button>
+        
+                          
+        <button type="button" class="btn btn-default">
+            <a 
+                href=file:///Users/shamarhunter/Documents/map.html#>
+                Map 
+            </a>    
+        </button>
+
+	
+	     <div class="col-lg">
+            <form class="input-group" method="GET" action="search" >
+              <input type="text" class="form-control" name="query" id="myInput" onkeyup="myFunction()" placeholder="Search for...">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="submit">Search</button>
+              </span>
+            </form><!-- /input-group -->
+        </div><!-- /.col-lg-6 -->
+
+
+        <table class="table table-bordered table-condensed table-striped" id="myTable">            
+            <thead>
+                <tr>
+                    <!-- <th scope="col">#</th> -->
+                    <th scope="col" style="color: goldenrod">Room</th>
+                    <th scope="col" style="color: goldenrod">Students</th>
+                    <th scope="col" style="color: goldenrod">Capacity</th>
+                    <th scope="col" style="color: goldenrod">Temperature</th>
+                    <th scope="col" style="color: goldenrod">Crowd Bar</th>
+                </tr>
+            </thead>
+    
+            <tbody>
+				  
+				<tr>
+                            <!-- Set variable in Jinja-->
+					<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+                            
+                            <td>Owen Library-1</td>
+                            <td>10</td>
+                            <td>35</td>
+                            <td>75</td>
+                            <td><div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:10%">
+      <span class="sr-only">70% Complete</span>
+                            </div>
+                            </td>
+                        </tr>
+				<tr>
+					<td>Owen Library-2</td>
+                            <td>30</td>
+                            <td>35</td>
+                            <td>75</td>
+                            <td><div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+      <span class="sr-only"></span>
+                            </div>
+                            </td>
+                        </tr>
+				<tr>
+					<td>Owen Library-3</td>
+                            <td>15</td>
+                            <td>35</td>
+                            <td>75</td>
+                            <td><div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      <span class="sr-only"></span>
+                            </div>
+                            </td>
+                        </tr>
+				<tr>
+					<td>ENS-1</td>
+                            <td>15</td>
+                            <td>35</td>
+                            <td>75</td>
+                            <td><div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      <span class="sr-only"></span>
+                            </div>
+                            </td>
+                        </tr>
+				<tr>
+					<td>ENS-1</td>
+                            <td>15</td>
+                            <td>35</td>
+                            <td>75</td>
+                            <td><div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      <span class="sr-only"></span>
+                            </div>
+                            </td>
+                        </tr>
+				<tr>
+					<td>ENS-2</td>
+                            <td>15</td>
+                            <td>35</td>
+                            <td>75</td>
+                            <td><div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      <span class="sr-only"></span>
+                            </div>
+                            </td>
+                        </tr>
+				<tr>
+					<td>ENS-3</td>
+                            <td>15</td>
+                            <td>35</td>
+                            <td>75</td>
+                            <td><div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      <span class="sr-only"></span>
+                            </div>
+                            </td>
+                        </tr>
+				<tr>
+					<td>ENS-4</td>
+                            <td>15</td>
+                            <td>35</td>
+                            <td>75</td>
+                            <td><div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:50%">
+      <span class="sr-only"></span>
+                            </div>
+                            </td>
+                        </tr>
+				</tbody>
+        </table>
+	<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+    </div>
+					  
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+				
+<html>
